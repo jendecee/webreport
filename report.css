@@ -1,0 +1,177 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 250px;
+  background: #FF7000;
+  padding: 6px 14px;
+  z-index: 99;
+}
+
+.sidebar .logo-details {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.sidebar .logo-details .logo_name {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sidebar .logo-details #btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: all 0.4s ease;
+  font-size: 23px;
+  text-align: center;
+  text-align: right;
+}
+
+.sidebar i {
+  color: #fff;
+  margin-right: 20px;
+  height: 60px;
+  min-height: 50px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.sidebar .nav-list {
+  margin-top: 20px;
+  height: 100%;
+}
+
+
+
+.sidebar li {
+  position: relative;
+  margin: 8px 0;
+  list-style: none;
+  color: #fff;
+}
+
+
+
+.sidebar .li {
+  color: #FFF;
+  position: absolute;
+  top: -20px;
+  left: calc(100%+15px);
+  z-index: 3;
+  box-shadow: 0 5px 10px #FF7000;
+  padding: 6px 12px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: 0s;
+}
+
+.sidebar li a{
+  color: #fff;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  background: #FF7000;
+}
+
+.sidebar li.profile {
+  bottom: -50px;  
+  padding: 10px 14px;
+}
+
+.sidebar .profile{
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+}
+.sidebar li.profile .group { 
+  font-size: 20px;
+}
+
+.sidebar .profile-details {
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  right:0;
+  transform: translateY(-50%);
+  background: #FAAB78;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0px;
+}
+
+.home-section{
+  padding-left: 100px;
+  padding-right: 60px;
+  text-align: center;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.home-section .text {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 500;
+  margin: 18px;
+  font-weight: bold;
+}
+
+.home-section h1 {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 40px;
+}
+
+.home-section ul {
+  text-align: left;
+}
+
+.home-section li {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.home-section p {
+  margin: 15px 15px;
+}
+
+
+.home-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-section .figure {
+  text-align: center;
+}
+
+
+
+
+
